@@ -345,11 +345,6 @@ ul {
     transition: var(--transition);
 }
 
-.stat-item:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-}
-
 .stat-number {
     display: block;
     font-size: 1.6rem;
@@ -379,12 +374,7 @@ ul {
     border: 1px solid transparent;
 }
 
-.about-item:hover {
-    background: #fff;
-    border-color: var(--border-color);
-    transform: translateY(-4px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.06);
-}
+
 
 .about-item-icon {
     width: 50px;
@@ -668,12 +658,6 @@ ul {
     border: 1px solid var(--dark-border);
 }
 
-.exp-card:hover {
-    transform: translateY(-8px);
-    border-color: #444;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
-}
-
 .exp-card-img {
     width: 100%;
     height: 220px;
@@ -686,10 +670,6 @@ ul {
     height: 100%;
     object-fit: cover;
     transition: transform 0.6s cubic-bezier(0.1, 0.7, 0.1, 1);
-}
-
-.exp-card:hover .exp-card-img img {
-    transform: scale(1.1);
 }
 
 .exp-card-date {
@@ -836,14 +816,6 @@ ul {
     cursor: pointer;
 }
 
-.footer-profile:hover {
-    background: var(--text-primary);
-    color: #fff;
-    border-color: var(--text-primary);
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
 .footer-profile .profile-text {
     display: flex;
     flex-direction: column;
@@ -860,10 +832,6 @@ ul {
     color: var(--text-secondary);
     font-weight: 500;
     transition: color 0.3s ease;
-}
-
-.footer-profile:hover .role {
-    color: rgba(255,255,255,0.7);
 }
 
 .profile-img-container {
@@ -889,10 +857,6 @@ ul {
     border: 2px solid #fff;
     border-radius: 50%;
     transition: border-color 0.3s ease;
-}
-
-.footer-profile:hover .online-indicator {
-    border-color: var(--text-primary);
 }
 
 .footer-socials {
