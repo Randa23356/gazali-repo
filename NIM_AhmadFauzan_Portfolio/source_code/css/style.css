@@ -359,40 +359,6 @@ ul { list-style: none; }
     margin-bottom: 6px;
     line-height: 1.6;
 }
-
-.about-counters {
-    display: flex;
-    gap: 20px;
-    position: relative;
-    z-index: 2;
-}
-
-.counter {
-    flex: 1;
-    background: var(--text-primary);
-    color: #fff;
-    border-radius: 14px;
-    padding: 24px 16px;
-    text-align: center;
-    transition: var(--transition);
-}
-
-.counter-number {
-    display: block;
-    font-size: 2rem;
-    font-weight: 800;
-    color: var(--accent);
-    line-height: 1.2;
-}
-
-.counter-label {
-    display: block;
-    font-size: 0.75rem;
-    color: #9ca3af;
-    margin-top: 6px;
-    font-weight: 500;
-}
-
 /* =========================================
    SKILLS SECTION (Card Grid)
    ========================================= */
